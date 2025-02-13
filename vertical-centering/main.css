@@ -1,0 +1,20 @@
+.body {
+    background-color: bisque;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100px;
+    border: 1px solid black;
+}
+
+.vcenter * {
+    margin: auto;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}

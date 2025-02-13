@@ -1,0 +1,35 @@
+.body {
+    background-color: bisque;
+}
+
+.grid {
+    display: flex;
+}
+
+.gutters {
+    margin: -10px 0 10px -10px;
+}
+
+.gutters > div {
+    padding: 10px 0 0 10px;
+}
+
+.grid > div > div  {
+    border: 1px solid #000;
+    background-color: grey;
+    height: 100%;
+}
+
+.half {
+    flex-basis: 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.third {
+    flex-basis: 33.333333%;
+}
+
+.fourth {
+    flex-basis: 25%;
+}

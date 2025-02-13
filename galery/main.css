@@ -1,0 +1,29 @@
+.body {
+    background-color: bisque;
+}
+
+.grid {
+    display: flex;
+}
+
+.gutters {
+    margin: -10px 0 10px -10px;
+}
+
+.gutters > .cell {
+    padding: 10px 0 0 10px;
+}
+
+.cell {
+    flex: 1;
+}
+
+.cell > div {
+    border: 1px solid #000;
+    background-color: grey;
+    height: 100%;
+}
+
+.large {
+    flex-grow: 2;
+}
